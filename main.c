@@ -13,10 +13,11 @@ int main(){
 	printf("Enter second number:");
 	scanf("%d",&num2);
 	int n;
-	printf("Enter 1 for Addition:");
-	printf("Enter 2 for Subtraction:");
-	printf("Enter 3 for Multiplication:");
-	printf("Enter 4 for Division:");
+	printf("Enter 1 for Addition");
+	printf("\nEnter 2 for Subtraction");
+	printf("\nEnter 3 for Multiplication");
+	printf("\nEnter 4 for Division\n");
+	scanf("%d",&n);
 	if(n == 1){
 		add(num1,num2);
 	}
