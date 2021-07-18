@@ -1,7 +1,6 @@
 #include<stdio.h>
-#include<stdlib.h>
 
-# include"myheader.h"
+#include"myheader.h"
 
 int main(){
 	int num1,num2;
@@ -16,16 +15,20 @@ int main(){
 	printf("\nEnter 4 for Division\n");
 	scanf("%d",&n);
 	if(n == 1){
-		add(num1,num2);
+		int sum = add(num1,num2);
+		printf("Sum is %d\n",sum);
 	}
 	else if(n == 2){
-		subtract(num1,num2);
+		int difference = subtract(num1,num2);
+		printf("Difference is %d\n",difference); 
 	}
 	else if(n == 3){
-		multiply(num1,num2);
+		int product = multiply(num1,num2);
+		printf("Product is %d",product);
 	}
 	else{
-		division(num1,num2);
+		float result = division(num1,num2);
+		printf("Quotient is %f",result);
 	}
 	return 0;
 }
