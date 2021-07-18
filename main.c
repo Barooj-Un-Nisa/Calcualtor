@@ -1,10 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-void add(int,int);
-void subtract(int,int);
-void multiply(int, int);
-void division(int,int);
+# include"myheader.h"
 
 int main(){
 	int num1,num2;
